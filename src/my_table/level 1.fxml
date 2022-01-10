@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="263.0" prefWidth="790.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17">
+   <children>
+      <ImageView fitHeight="290.0" fitWidth="790.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/senior%201.JPG" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

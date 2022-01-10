@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="login" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #CDDEFF;" stylesheets="@Table_css.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="my_table.Controllerlogin">
+   <children>
+      <ImageView blendMode="MULTIPLY" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/377627.png" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="DARKEN" fitHeight="60.0" fitWidth="64.0" layoutX="140.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../college%20schedule/src/front/images/2794663.png" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="DARKEN" fitHeight="60.0" fitWidth="60.0" layoutX="140.0" layoutY="218.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../college%20schedule/src/front/images/2010511.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="usernametextfield" layoutX="245.0" layoutY="142.0" prefHeight="33.0" prefWidth="195.0" />
+      <PasswordField fx:id="passwordfield" layoutX="245.0" layoutY="231.0" prefHeight="34.0" prefWidth="195.0" />
+      <Button layoutX="329.0" layoutY="315.0" mnemonicParsing="false" onAction="#loginAction" prefHeight="44.0" prefWidth="112.0" styleClass="log" text="Login">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="318.0" layoutY="40.0" prefHeight="60.0" prefWidth="195.0" text="Sign In">
+         <font>
+            <Font name="Bookman Old Style Bold" size="39.0" />
+         </font>
+      </Label>
+      <ProgressIndicator fx:id="loading" layoutX="464.0" layoutY="317.0" prefHeight="54.0" prefWidth="54.0" progress="0.0" />
+      <Label layoutX="167.0" layoutY="325.0" prefHeight="24.0" prefWidth="150.0" text="Forget Password">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="loginmessagelabel" layoutX="228.0" layoutY="117.0" prefHeight="19.0" prefWidth="271.0" />
+   </children>
+</AnchorPane>
